@@ -10,7 +10,10 @@
   },
   "dependencies": {
     "@expo/webpack-config": "^19.0.0",
+    "@tanstack/react-query": "^4.35.3",
     "axios": "^1.5.0",
+    "babel-plugin-module-resolver": "^5.0.0",
+    "date-fns": "^2.30.0",
     "expo": "~49.0.11",
     "expo-status-bar": "~1.6.0",
     "react": "18.2.0",

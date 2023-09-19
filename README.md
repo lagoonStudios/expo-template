@@ -12,3 +12,6 @@ contais the folder structure for a medium size application as:
     | hooks
     | pages
     | utils
+
+
+When adding variables in the .env file, you need to declare the variables types in ./src/types/ev.d.ts to work with typescript.

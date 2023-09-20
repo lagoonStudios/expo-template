@@ -1,4 +1,4 @@
-import { apiGET } from "@/lib/axios/axios";
+import { GET } from "@/lib/axios/axios";
 import { useQuery } from "@tanstack/react-query";
 
 //This key is used as an indentify to the cache where the data is stored.
@@ -9,5 +9,5 @@ const exampleKey = "users";
  * @returns users array.
  */
 export const useGetUsers = () => {
-  return useQuery([exampleKey], async () => (await apiGET("")).data);
+  return useQuery([exampleKey], async () => (await GET("")).data);
 };

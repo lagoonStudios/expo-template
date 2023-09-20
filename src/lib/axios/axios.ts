@@ -25,7 +25,6 @@ export const PUT = (
 
 export const DELETE = (
   endpoint: string,
-  body: any,
   options?: { abortController?: AbortController }
 ) => {
   return axiosInstance.delete(endpoint, { signal: options?.abortController?.signal });

@@ -10,7 +10,9 @@ contais the folder structure for a medium size application as:
     | context
     | data
     | hooks
+    | lib
     | pages
+    | styles
     | utils
 
 

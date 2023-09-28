@@ -6,7 +6,6 @@
     "paths": {
       "@/*": ["src/*"]
     },
-    "typeRoots": ["./src/types"],
     "jsx": "react-native",
     "allowJs": true                           /* Allow javascript files to be compiled. */,
     "checkJs": true,                          /* Report errors in .js files. */
